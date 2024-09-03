@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Newsletter</title>
+    <link rel="stylesheet" href="theme.css">
+    <script src = "https://kit.fontawesome.com/b3841f4a26.js" crossorigin="anonymous"></script>
+    <script src="hamburger.js" defer></script>
+    <script src="form.js" defer></script>
+   
+    
+</head>
+<body>
+    <div id="wrapper">
+    <header>
+        <h1>Our Global Company</h1>
+        <a id = "hamburger">
+        <i class="fa-solid fa-bars"></i>
+        </a>
+        <nav id="mainNav">
+            <ul class="mainNav">
+                <li class="nav "><a href="index.html">Home</a></li>
+                <li class="nav "><a href="nopoverty.html">No Poverty</a></li>
+                <li class="nav"><a href="energy.html"> Clean Energy</a> </li>
+                <li class="nav"><a href="climate.html">Climate</a></li>
+                <li class="nav active"><a href="form.html">Newsletter</a></li>
+                <li class="nav"><a href="teampage.html">Our Team</a></li>
+            </ul>
+        </nav>
+        <div class="headContainer">
+            <i class="fa-solid fa-square-envelope fa-2x"></i>
+        </div>
+
+
+    </header>
+
+
+
+<main>
+    <h2 id="page-title">Newsletter</h2>
+
+    <h3 id ="form-title">Sign up to our Newsletter</h3>
+    <div>
+        <p class="form">Required information is marked with an asterisk(*)</p>
+        <form method="post" action="" id="form">
+            <fieldset> <!--groups related items of a form in box-->
+                <legend>Sign up form <i class="fa-regular fa-message"></i></legend> <!--defines caption for fieldset-->
+                
+            <label for="name"> First Name*: </label>
+            <input type="text" id="forename" name="name" required placeholder="Your name">
+            <label for="name"> Last Name*: </label>
+            <input type="text" id="surname" name="name" required placeholder="Your name">
+            <label for="email"> Email*: <i class="fa-regular fa-envelope"></i></label>
+            <input type="email" id="email" name="email"  required placeholder="Your email" >
+            <label for="message"> Message/Comments*:</label>
+            <textarea id="message" name="message" rows="4" cols="50" required></textarea>
+            <button id="submit">Submit <i class="fa-solid fa-angles-right"></i></button>
+            </fieldset>
+        </form>
+        
+</main>
+<footer>
+    <small>
+        <i>Copyright &copy; 2023 Our Goals Company</i>
+    </small>
+    <a href="mailto: email@uea.ac.uk">Goals Team</a>
+</footer>
+    </div>
+</body>
